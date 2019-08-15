@@ -17,6 +17,15 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'comma-dangle': ['error', 'never'],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '.storybook/**',
+          'stories/**'
+        ]
+      }
+    ],
     'linebreak-style': ['error', 'unix'],
     'operator-linebreak': ['error', 'after'],
     quotes: ['error', 'single'],
