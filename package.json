@@ -1,6 +1,6 @@
 {
   "name": "@catal/eslint-config-base",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Base eslint config for catal",
   "main": "index.js",
   "scripts": {
