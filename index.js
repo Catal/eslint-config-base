@@ -38,7 +38,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/explicit-function-return-type': [
-      'warn',
+      'error',
       {
         allowExpressions: true,
         allowTypedFunctionExpressions: true
