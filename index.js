@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: ['airbnb', 'plugin:@typescript-eslint/recommended'],
+  extends: ['airbnb', 'airbnb/hooks', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint', 'react'],
   parserOptions: {
     ecmaFeatures: {
