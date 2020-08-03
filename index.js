@@ -41,7 +41,7 @@ module.exports = {
         allowTypedFunctionExpressions: true
       }
     ],
-    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/indent': 'off',
     '@typescript-eslint/member-delimiter-style': [
       'error',
       {
@@ -54,13 +54,7 @@ module.exports = {
         }
       }
     ],
-    '@typescript-eslint/prefer-interface': 0,
-    'prettier/prettier': [
-      'error',
-      {
-        endOfLine: 'auto'
-      }
-    ]
+    '@typescript-eslint/prefer-interface': 0
   },
   overrides: [
     {
