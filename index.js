@@ -15,15 +15,12 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
     'comma-dangle': ['error', 'never'],
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: [
-          '.storybook/**',
-          'stories/**'
-        ]
+        devDependencies: ['.storybook/**', 'stories/**']
       }
     ],
     'linebreak-style': ['error', 'unix'],
@@ -35,7 +32,7 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/label-has-for': 'off',
     'jsx-quotes': ['error', 'prefer-single'],
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
+    'react/jsx-filename-extension': ['error', {extensions: ['.jsx', '.tsx']}],
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -44,7 +41,7 @@ module.exports = {
         allowTypedFunctionExpressions: true
       }
     ],
-    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/indent': 'off',
     '@typescript-eslint/member-delimiter-style': [
       'error',
       {
