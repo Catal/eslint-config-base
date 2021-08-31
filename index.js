@@ -9,7 +9,7 @@ module.exports = {
       'airbnb', 
       'airbnb/hooks', 
       'eslint:recommended',
-      'plugin:@typescript-eslint/recommended'
+      'plugin:@typescript-eslint/recommended',
   ],
   plugins: ['@typescript-eslint', 'react'],
   parserOptions: {
@@ -92,6 +92,14 @@ module.exports = {
       rules: {
         'react/prop-types': 'off'
       }
+    }
+    ,
+    {
+        files: ['./app/javascript/apis/*', './app/javascript/sagas/*'],
+        rules: {
+          '@typescript-eslint/naming-convention': 'off',
+          'camelcase': 'off',
+        }
     }
   ]
 }
