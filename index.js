@@ -25,7 +25,6 @@ module.exports = {
     //export defaultしたcomponentを使う側が自由に命名できることによって、
     //そのコンポーネントの命名が使い手側によって解釈されて意図しない命名になってしまうことを防ぎたい
     'import/prefer-default-export': 'off',
-    'import/no-default-export': 'error',
     //Forbid the use of extraneous packages
     'import/no-extraneous-dependencies': [
       'error',
