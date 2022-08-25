@@ -1,5 +1,4 @@
 module.exports = {
-  globals: {},
   parser: '@typescript-eslint/parser',
   env: {
     browser: true,
@@ -16,7 +15,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: 2018,
+    ecmaVersion: latest,
     sourceType: 'module'
   },
   rules: {
@@ -92,7 +91,9 @@ module.exports = {
     //Prefer an interface declaration over a type literal 
     '@typescript-eslint/prefer-interface': 'off',
     //Using non-null assertions cancels the benefits of the strict null-checking mode.
-    '@typescript-eslint/no-non-null-assertion':'off'
+    '@typescript-eslint/no-non-null-assertion':'off',
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   },
   overrides: [
     {
