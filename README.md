@@ -4,7 +4,7 @@ eslint config for projects at catal
 ## Installation
 
 ```sh
-$ yarn add -D @catal/eslint-config-base'
+$ yarn add -D "@catal/eslint-config-base"
 ```
 
 
