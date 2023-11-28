@@ -6,10 +6,10 @@ module.exports = {
     es6: true
   },
   extends: [
-      'airbnb', 
-      'airbnb/hooks', 
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
+    'airbnb',
+    'airbnb/hooks',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   plugins: ['@typescript-eslint', 'react'],
   parserOptions: {
@@ -32,9 +32,9 @@ module.exports = {
         devDependencies: ['.storybook/**', 'stories/**']
       }
     ],
-    //Enforce a defaultProps definition for every prop that is not a required prop 
+    //Enforce a defaultProps definition for every prop that is not a required prop
     'react/require-default-props': 'off',
-    //Restrict file extensions that may contain JSX 
+    //Restrict file extensions that may contain JSX
     'react/jsx-filename-extension': ['error', {extensions: ['.jsx', '.tsx']}],
     //Warn if an element uses an Array index in its key
     'react/no-array-index-key': 'off',
@@ -89,7 +89,7 @@ module.exports = {
     ],
     //Disallow the use of variables before they are defined
     '@typescript-eslint/no-use-before-define': ['error'],
-    //Prefer an interface declaration over a type literal 
+    //Prefer an interface declaration over a type literal
     '@typescript-eslint/prefer-interface': 'off',
     //Using non-null assertions cancels the benefits of the strict null-checking mode.
     '@typescript-eslint/no-non-null-assertion':'off'
