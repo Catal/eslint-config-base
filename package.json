@@ -2,6 +2,7 @@
   "name": "@catal/eslint-config-base",
   "version": "0.0.13",
   "description": "Base eslint config for catal",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
