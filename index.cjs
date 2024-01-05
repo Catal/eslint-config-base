@@ -5,10 +5,7 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint', 'react'],
   parserOptions: {
     ecmaFeatures: {
@@ -33,11 +30,11 @@ module.exports = {
     //Enforce a defaultProps definition for every prop that is not a required prop
     'react/require-default-props': 'off',
     //Restrict file extensions that may contain JSX
-    'react/jsx-filename-extension': ['error', {extensions: ['.jsx', '.tsx']}],
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     //Warn if an element uses an Array index in its key
     'react/no-array-index-key': 'off',
     //Require parens in arrow function arguments
-    'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     //Require or disallow trailing commas
     'comma-dangle': ['error', 'never'],
     //Enforce consistent linebreak style
@@ -90,7 +87,7 @@ module.exports = {
     //Prefer an interface declaration over a type literal
     '@typescript-eslint/prefer-interface': 'off',
     //Using non-null assertions cancels the benefits of the strict null-checking mode.
-    '@typescript-eslint/no-non-null-assertion':'off'
+    '@typescript-eslint/no-non-null-assertion': 'off'
   },
   overrides: [
     {
@@ -98,14 +95,13 @@ module.exports = {
       rules: {
         'react/prop-types': 'off'
       }
-    }
-    ,
+    },
     {
-        files: ['./app/javascript/apis/**', './app/javascript/sagas/**'],
-        rules: {
-          '@typescript-eslint/naming-convention': 'off',
-          'camelcase': 'off',
-        }
+      files: ['./app/javascript/apis/**', './app/javascript/sagas/**'],
+      rules: {
+        '@typescript-eslint/naming-convention': 'off',
+        camelcase: 'off'
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
   "version": "0.0.13",
   "description": "Base eslint config for catal",
   "type": "module",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "test": "node test/test.js"
   },
