@@ -1,6 +1,6 @@
 {
   "name": "@catal/eslint-config-base",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Base eslint config for catal",
   "type": "module",
   "main": "index.cjs",
@@ -10,7 +10,8 @@
   "author": "indigolain",
   "contributors": [
     "hsu",
-    "geeknees"
+    "geeknees",
+    "okuramasafumi"
   ],
   "license": "MIT",
   "dependencies": {
