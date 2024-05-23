@@ -1,6 +1,6 @@
 {
   "name": "@catal/eslint-config-base",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Base eslint config for catal",
   "type": "module",
   "main": "index.cjs",
